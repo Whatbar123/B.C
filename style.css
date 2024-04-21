@@ -1,6 +1,9 @@
-#myDiv {
-    width: 200px;
-    height: 200px;
-    background-color: lightblue;
-    display: none; /* Початково ховаємо елемент */
-  }
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
