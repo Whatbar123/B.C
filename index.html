@@ -1,46 +1,21 @@
-<html>
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Сайт про пам'ятки України </title>
-    <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-    <button id="myButton"> Софія Київська </button>
-    <div id="myDiv">        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f0f0f0;
-    }
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .gallery-item {
-        margin: 10px;
-        text-align: center;
-    }
-    .gallery-item img {
-        width: 300px;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 5px;
-    }
-    .gallery-item p {
-        margin-top: 5px;
-        font-size: 16px;
-        font-weight: bold;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Софійський собор</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<div class="gallery">
-    <div class="gallery-item">
-        <img src="sofia_kyivska.jpg" alt="Софія Київська">
-        <p>Софія Київська</p>
-    </div></div>
-    <script src="script.js"></script>
-    </body>
-    </html>
+  <button id="showSophia"> Софійський собор </button>
+  <div id="sophiaInfo" style="display: none;">
+    <img src="sophia_cathedral.jpg" alt="Софійський собор">
+    <p>
+      Софійський собор — культова споруда Київської Русі, збудована у 11 столітті. 
+      Це символ історичного Києва та його столиці. Собор відомий своєю архітектурою,
+      мозаїками та фресками. Він є частиною Києво-Печерської Лаври.
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
